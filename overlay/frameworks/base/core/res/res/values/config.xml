@@ -768,4 +768,7 @@
     
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="Allowautobrightnesswhiledozing">true</bool>
+
+    <!-- Smart Charing is available for Redmi Note 10 Pro -->
+    <bool name="config_smartChargingAvailable">true</bool>
 </resources>
