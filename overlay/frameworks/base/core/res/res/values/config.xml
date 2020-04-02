@@ -779,4 +779,7 @@
     <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
     <integer name="config_sysCPUTempMultiplier">1000</integer>
     <integer name="config_sysBatteryTempMultiplier">10</integer>
+
+    <!-- FPSInfoService Fps file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
 </resources>
