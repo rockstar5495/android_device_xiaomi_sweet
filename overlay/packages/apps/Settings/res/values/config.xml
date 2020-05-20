@@ -11,11 +11,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Battery Health -->
-    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
-    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
-    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
-
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
 
@@ -29,4 +24,10 @@
 
     <!-- Whether to show min/max refresh rate in display settings -->
     <bool name="config_show_refresh_rate_controls">true</bool>
+
+    <!-- Battery Health -->
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
+    <bool name="config_supportBatteryHealth">true</bool>
 </resources>
