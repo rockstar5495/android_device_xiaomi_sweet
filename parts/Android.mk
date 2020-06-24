@@ -17,7 +17,8 @@ LOCAL_USE_AAPT2 := true
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.core_core \
     org.lineageos.settings.resources \
-    androidx.preference_preference
+    androidx.preference_preference \
+    SettingsLib
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
