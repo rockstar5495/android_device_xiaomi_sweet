@@ -35,3 +35,7 @@ on boot
 # Smart Charging
     chown system system /sys/class/power_supply/battery/input_suspend
     chmod 0666 /sys/class/power_supply/battery/input_suspend
+
+# Restrict permissions to socket file 
+# to hide Magisk & co.
+    chmod 440 /proc/net/unix
