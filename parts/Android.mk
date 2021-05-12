@@ -24,8 +24,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     vendor.xiaomi.hardware.touchfeature-V1.0-java
 
 LOCAL_RESOURCE_DIR := \
-    $(LOCAL_PATH)/res \
-    $(TOP)/packages/resources/devicesettings/res
+    $(LOCAL_PATH)/res
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     vendor.xiaomi.hardware.touchfeature-V1.0-java
