@@ -42,3 +42,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ims.disableDebugLogs=1 \
     persist.vendor.ims.disableIMSLogs=1 \
     persist.vendor.ims.disableQXDMLogs=1
+
+# Gboard
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.com.google.ime.kb_pad_port_b=1
