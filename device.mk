@@ -196,3 +196,7 @@ PRODUCT_BOOT_JARS += \
 # GCam Go
 PRODUCT_PACKAGES += \
     GCam
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
