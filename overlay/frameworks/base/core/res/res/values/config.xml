@@ -796,4 +796,7 @@
 
     <!-- Whether device has fingerprint on power button -->
     <bool name="config_powerButtonFingerprint">true</bool>
+
+    <!-- Defines the sysfs attributes path used by the device to enable/disable DC dimming -->
+    <string name="config_deviceDcDimmingSysfsNode">/sys/devices/platform/soc/soc:qcom,dsi-display/msm_fb_ea_enable</string>
 </resources>
