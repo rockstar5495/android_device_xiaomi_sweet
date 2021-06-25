@@ -1,6 +1,0 @@
-# Octavi
-PRODUCT_PRODUCT_PROPERTIES += \
-ro.octavi.maintainer=Pratyaksh.Bharadwaj \
-ro.octavi.status=Official \
-ro.octavi.branding.version=2.6 \
-ro.octavi.cpu=Snapdragon732G

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 OctaviOS Project
+# Copyright (C) 2020 The Xtended Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #

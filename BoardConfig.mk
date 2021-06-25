@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 OctaviOS Project
+# Copyright (C) 2020 The Xtended Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -25,7 +25,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sweet,sweetin,sweetinpro
+TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
