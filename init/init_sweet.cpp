@@ -177,8 +177,8 @@ void vendor_load_properties() {
         }
 
     // SafetyNet workaround
-    fingerprint = "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
-    description = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
+    fingerprint = "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys";
+    description = "redfin-user 11 RQ3A.210705.001 7380771 release-keys";
     property_override("ro.boot.verifiedbootstate", "green");
     property_override("ro.boot.flash.locked", "1");
     workaround_snet_properties();
