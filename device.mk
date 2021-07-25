@@ -215,3 +215,7 @@ PRODUCT_PACKAGES += \
 # Remove Packages
 PRODUCT_PACKAGES += \
     RemovePackages
+
+# Use 64-bit dex2oat for better dexopt time
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat64.enabled=true
