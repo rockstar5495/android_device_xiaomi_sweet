@@ -120,6 +120,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Cutout
+PRODUCT_PACKAGES += \
+    CutoutRingServiceSweet
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
