@@ -1,3 +1,0 @@
-# FPS Info
-/sys/devices/virtual/graphics/fb0/measured_fps           u:object_r:sysfs_fps:s0
-
