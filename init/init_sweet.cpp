@@ -154,23 +154,23 @@ void vendor_load_properties() {
     if (region == "GLOBAL") {
         model = "M2101K6G";
         device = "sweet";
-        fingerprint = "Redmi/sweet_eea/sweet:11/RKQ1.200826.002/V12.0.10.0.RKFEUXM:user/release-keys";
-        description = "sweet_eea-user 11 RKQ1.200826.002 V12.0.10.0.RKFEUXM release-keys";
+        fingerprint = "Redmi/sweet_eea/sweet:11/RKQ1.200826.002/V12.5.6.0.RKFEUXM:user/release-keys";
+        description = "sweet_eea-user 11 RKQ1.200826.002 V12.5.6.0.RKFEUXM release-keys";
         marketname = "Redmi Note 10 Pro";
         mod_device = "sweet_eea_global";
     } else if (region == "INDIA") {
         if (sku == "std") {
             model = "M2101K6P";
             device = "sweetin";
-            fingerprint = "Redmi/sweetin/sweetin:11/RKQ1.200826.002/V12.0.6.0.RKFINXM:user/release-keys";
-            description = "sweetin-user 11 RKQ1.200826.002 V12.0.6.0.RKFINXM release-keys";
+            fingerprint = "Redmi/sweetin/sweetin:11/RKQ1.200826.002/V12.5.4.0.RKFINXM:user/release-keys";
+            description = "sweetin-user 11 RKQ1.200826.002 V12.5.4.0.RKFINXM release-keys";
             marketname = "Redmi Note 10 Pro";
             mod_device = "sweetin_in_global";
         } else {
                 model = "M2101K6I";
                 device = "sweetin";
-                fingerprint = "Redmi/sweetinpro/sweetin:11/RKQ1.200826.002/V12.0.6.0.RKFINXM:user/release-keys";
-                description = "sweetinpro-user 11 RKQ1.200826.002 V12.0.6.0.RKFINXM release-keys";
+                fingerprint = "Redmi/sweetinpro/sweetin:11/RKQ1.200826.002/V12.5.4.0.RKFINXM:user/release-keys";
+                description = "sweetinpro-user 11 RKQ1.200826.002 V12.5.4.0.RKFINXM release-keys";
                 marketname = "Redmi Note 10 Pro Max";
                 mod_device = "sweetin_in_global";
             }
