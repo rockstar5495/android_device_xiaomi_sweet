@@ -41,4 +41,7 @@
         <item>-1</item>
         <item>-1</item>
     </integer-array>
+
+    <!-- Whether SELinux status should be shown or not. -->
+    <bool name="config_show_selinux_status">true</bool>
 </resources>
