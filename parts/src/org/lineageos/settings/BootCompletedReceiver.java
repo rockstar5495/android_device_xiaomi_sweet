@@ -24,7 +24,6 @@ import androidx.preference.PreferenceManager;
 
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
-import org.lineageos.settings.utils.RefreshRateUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.utils.FileUtils;
 
@@ -37,12 +36,12 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     public void onReceive(final Context context, Intent intent) {
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
 
-        // Refresh rate
-        RefreshRateUtils.setFPS(RefreshRateUtils.getRefreshRate(context));
+        // Dirac
+        DiracUtils.initialize(context);
 
         // Doze
-        DiracUtils.initialize(context);
         DozeUtils.checkDozeService(context);
+
         // Thermal Profiles
         ThermalUtils.startService(context);
 

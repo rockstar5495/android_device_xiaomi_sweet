@@ -17,11 +17,6 @@
     <string name="switch_bar_on">On</string>
     <string name="switch_bar_off">Off</string>
 
-    <!-- Refres rate -->
-    <string name="device_specific_settings_summary">Refresh rate configuration</string>
-    <string name="device_min_refresh_rate">Minimum Refresh Rate</string>
-    <string name="refresh_rate_tile_title">High Refresh Rate</string>
-    
     <!-- Dirac settings -->
     <string name="dirac_title">Dirac sound enhancer</string>
     <string name="dirac_headset_title">Headset type</string>
