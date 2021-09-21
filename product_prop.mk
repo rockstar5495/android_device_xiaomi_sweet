@@ -31,18 +31,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
 	ro.control_privapp_permissions=log
 
-# RIL
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.dbg.volte_avail_ovr=1 \
-	persist.dbg.vt_avail_ovr=1 \
-	persist.dbg.wfc_avail_ovr=1 \
-	persist.vendor.radio.enable_temp_dds=true \
-	persist.vendor.radio.report_codec=1 \
-    persist.vendor.ims.disableADBLogs=1 \
-    persist.vendor.ims.disableDebugLogs=1 \
-    persist.vendor.ims.disableIMSLogs=1 \
-    persist.vendor.ims.disableQXDMLogs=1
-
 # Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.com.google.ime.kb_pad_port_b=1

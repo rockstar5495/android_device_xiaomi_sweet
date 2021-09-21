@@ -21,3 +21,15 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Display
 persist.amoled.cabc_mode=1
+
+# RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+  persist.dbg.volte_avail_ovr=1 \
+  persist.dbg.vt_avail_ovr=1 \
+  persist.dbg.wfc_avail_ovr=1 \
+  persist.vendor.radio.enable_temp_dds=true \
+  persist.vendor.radio.report_codec=1 \
+  persist.vendor.ims.disableADBLogs=1 \
+  persist.vendor.ims.disableDebugLogs=1 \
+  persist.vendor.ims.disableIMSLogs=1 \
+  persist.vendor.ims.disableQXDMLogs=1
