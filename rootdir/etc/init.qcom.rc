@@ -106,3 +106,6 @@ on property:vendor.post_boot.parsed=1
 # FM
     chown system system /sys/module/radio_iris_transport/parameters/fmsmd_set
     chmod 0660 /sys/module/radio_iris_transport/parameters/fmsmd_set
+
+on post-fs
+    mount none /system/bin/hw/android.hardware.power-service /vendor/bin/hw/android.hardware.power-service bind
