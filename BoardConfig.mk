@@ -149,8 +149,3 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/sweet/BoardConfigVendor.mk
-
-# Soong Namespaces
-PRODUCT_SOONG_NAMESPACES += \
-$(DEVICE_PATH) \
-hardware/qcom-caf/SM8150
