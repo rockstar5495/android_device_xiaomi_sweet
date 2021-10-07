@@ -7,20 +7,16 @@
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit some common ColtOS stuff.
-$(call inherit-product, vendor/colt/config/common_full_phone.mk)
+# Inherit from Potato vendor
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
-# Colt Stuff
-COLT_BUILD_TYPE := OFFICIAL
-COLT_BUILD_MAINTAINER := Pratyaksh.Bharadwaj
-TARGET_BOOT_ANIMATION_RES := 1080x2280
-TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 440
 TARGET_HAS_NOTCH := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := colt_sweet
+PRODUCT_NAME := potato_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
