@@ -193,12 +193,17 @@
         <item>0</item>
         <item>1</item>
         <item>3</item>
+        <item>256</item>
+        <item>257</item>
+        <item>258</item>
+        <item>259</item>
+        <item>260</item>
+        <item>261</item>
+        <item>262</item>
+        <item>263</item>
+        <item>264</item>
+        <item>265</item>
     </integer-array>
-
-    <!-- Color mode to use when accessibility transforms are enabled. This color mode must be
-         supported by the device, but not necessarily appear in config_availableColorModes. The
-         regularly selected color mode will be used if this value is negative. -->
-    <integer name="config_accessibilityColorMode">2</integer>
 
     <!-- Configure mobile tcp buffer sizes in the form:
         rat-name:rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max
