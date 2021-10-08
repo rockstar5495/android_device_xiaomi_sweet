@@ -131,6 +131,9 @@ TARGET_SCREEN_DENSITY := 440
 include device/qcom/sepolicy/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
+# Neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Treble
 BOARD_VNDK_VERSION := current
 
