@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The ColtOS Project
+# Copyright (C) 2020 The OctaviOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -7,16 +7,18 @@
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit from Potato vendor
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit common stuff from Octavi
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+OCTAVI_BUILD_TYPE := Official
+OCTAVI_DEVICE_MAINTAINER = Pratyaksh.Bharadwaj
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 440
 TARGET_HAS_NOTCH := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := potato_sweet
+PRODUCT_NAME := octavi_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro

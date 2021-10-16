@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The ColtOS Project
+# Copyright (C) 2020 The OctaviOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -28,7 +28,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
+TARGET_OTA_ASSERT_DEVICE := sweet,sweetin,sweetinpro
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
