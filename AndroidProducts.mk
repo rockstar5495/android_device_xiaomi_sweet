@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The ColtOS Project
+# Copyright (C) 2020 The OctaviOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_sweet.mk
+    $(LOCAL_DIR)/octavi_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_sweet-user \
-    potato_sweet-userdebug \
-    potato_sweet-eng
+    octavi_sweet-user \
+    octavi_sweet-userdebug \
+    octavi_sweet-eng
