@@ -34,3 +34,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.com.google.ime.kb_pad_port_b=1
+
+# One Handed Mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_one_handed_mode=true
