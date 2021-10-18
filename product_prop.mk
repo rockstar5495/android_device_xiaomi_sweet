@@ -39,11 +39,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.fflag.override.settings_provider_model=false \
 	persist.vendor.radio.enable_temp_dds=true \
 	persist.vendor.radio.report_codec=1 \
-    persist.vendor.ims.disableADBLogs=1 \
-    persist.vendor.ims.disableDebugLogs=1 \
-    persist.vendor.ims.disableIMSLogs=1 \
-    persist.vendor.ims.disableQXDMLogs=1
+        persist.vendor.ims.disableADBLogs=1 \
+        persist.vendor.ims.disableDebugLogs=1 \
+        persist.vendor.ims.disableIMSLogs=1 \
+        persist.vendor.ims.disableQXDMLogs=1
 
 # Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.com.google.ime.kb_pad_port_b=1
+
+# One Handed Mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_one_handed_mode=true
