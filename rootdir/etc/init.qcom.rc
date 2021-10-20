@@ -102,3 +102,7 @@ on property:vendor.post_boot.parsed=1
     write /sys/block/sdd/queue/read_ahead_kb 128
     write /sys/block/sde/queue/read_ahead_kb 128
     write /sys/block/sdf/queue/read_ahead_kb 128
+
+# FM
+    chown system system /sys/module/radio_iris_transport/parameters/fmsmd_set
+    chmod 0660 /sys/module/radio_iris_transport/parameters/fmsmd_set
