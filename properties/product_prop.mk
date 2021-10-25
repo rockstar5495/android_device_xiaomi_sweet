@@ -50,6 +50,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
 
+# Perfetto
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # ADB on boot
 persist.service.adb.enable=1
 persist.service.debuggable=1
