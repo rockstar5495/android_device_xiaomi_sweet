@@ -14,6 +14,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.bt.a2dp.aac_whitelist=false \
     ro.bluetooth.library_name=libbluetooth.so
 
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.sf.frame_rate_multiple_threshold=120
+
 # Enable blurs
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
@@ -41,3 +45,4 @@ ro.zram.periodic_wb_delay_hours=24
 # Pre-rendering
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.perf.scroll_opt=true
+
