@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The OctaviOS Project
+# Copyright (C) 2021 The ColtOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
