@@ -12,7 +12,7 @@ $(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 COLT_BUILD_TYPE := Official
 COLT_BUILD_MAINTAINER = Pratyaksh.Bharadwaj
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1080x2280
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 440
 TARGET_HAS_NOTCH := true
