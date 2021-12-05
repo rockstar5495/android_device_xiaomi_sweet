@@ -815,11 +815,6 @@
          config_defaultPeakRefreshRate will act as the default frame rate. -->
     <integer name="config_defaultRefreshRate">60</integer>
 
-    <!-- Control whether Night display is available. This should only be enabled on devices
-    that have a HWC implementation that can apply the matrix passed to setColorTransform
-    without impacting power, performance, and app compatibility (e.g. protected content). -->
-    <bool name="config_nightDisplayAvailable">false</bool>
-
     <!-- Whether device has fingerprint on power button -->
     <bool name="config_powerButtonFingerprint">true</bool>
 
