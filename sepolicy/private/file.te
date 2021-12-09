@@ -1,3 +1,1 @@
 type touchfeature_device, dev_type;
-
-type hal_power_default_exec, exec_type, vendor_file_type, file_type;
