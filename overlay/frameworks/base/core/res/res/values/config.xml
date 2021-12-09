@@ -824,14 +824,6 @@
     <!-- Set the default dialer package name. -->
     <string name="config_defaultDialer" translatable="false">com.android.dialer</string>
 
-    <!-- Smart Charing is available for Redmi Note 10 Pro -->
-    <bool name="config_smartChargingAvailable">true</bool>
-
-    <!-- Smart charging -->
-    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
-    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
-    <string name="config_SmartChargingResumeValue" translatable="false">0</string>
-
     <!-- Whether the device have a notification led -->
     <bool name="config_hasNotificationLed">false</bool>
 
