@@ -524,3 +524,7 @@
         </input_snd_device>
     </snd_devices>
 </audio_platform_info>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6b08d85... sweet: audio: Import all device-specific audio configuration
