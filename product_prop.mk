@@ -38,3 +38,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # One Handed Mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
+
+# ADB on boot
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
