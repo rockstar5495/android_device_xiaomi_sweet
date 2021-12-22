@@ -129,7 +129,6 @@ vendor/lib64/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib64/soundf
 #system_ext/framework/qti-telephony-common.jar
 
 # WiFi Display
--framework/WfdCommon.jar
 system_ext/bin/wfdservice
 system_ext/etc/init/wfdservice.rc
 system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml
