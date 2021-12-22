@@ -1,5 +1,3 @@
 # Octavi
-ro.octavi.maintainer=Pratyaksh.Bharadwaj \
-ro.octavi.branding=Official \
-ro.octavi.branding.version=3.0 \
-ro.octavi.cpu=SD732G
+ro.octavi.maintainer=pbharadwaj_95
+ro.octavi.display.pid=1530755
