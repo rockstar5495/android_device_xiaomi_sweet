@@ -35,6 +35,16 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.com.google.ime.kb_pad_port_b=1
 
+# Phase Gffset
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.use_phase_offsets_as_durations=1 \
+    debug.sf.late.sf.duration=10500000 \
+    debug.sf.late.app.duration=16600000 \
+    debug.sf.early.sf.duration=16600000 \
+    debug.sf.early.app.duration=16600000 \
+    debug.sf.earlyGl.sf.duration=16600000 \
+    debug.sf.earlyGl.app.duration=16600000
+
 # One Handed Mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
