@@ -4,3 +4,6 @@ allow init vendor_overlay_file:dir mounton;
 
 # DC Dimming
 allow init sysfs_dm:file setattr;
+
+# Allow init to bind mount over vendor file
+allow init vendor_file:file mounton;
