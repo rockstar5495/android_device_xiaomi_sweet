@@ -19,7 +19,8 @@
         android:label="@string/device_specific_settings_title"
         android:persistent="true">
 
-        <receiver android:name=".BootCompletedReceiver" android:exported="true">
+        <receiver android:name=".BootCompletedReceiver"
+	          android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -39,6 +40,7 @@
 
         <activity
             android:name=".doze.DozeSettingsActivity"
+	    android:exported="false"
             android:label="@string/ambient_display_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
@@ -53,9 +55,9 @@
 
         <activity
             android:name=".dirac.DiracActivity"
+	    android:exported="true"
             android:label="@string/dirac_title"
-            android:theme="@style/Theme.SubSettingsBase"
-            android:exported="true" >
+            android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -65,9 +67,9 @@
 
         <activity
             android:name=".thermal.ThermalActivity"
+	    android:exported="true"
             android:label="@string/thermal_title"
-            android:theme="@style/Theme.SubSettingsBase"
-            android:exported="true">
+            android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -83,9 +85,10 @@
         </activity>
 
         <activity
-            android:name=".speaker.ClearSpeakerActivity" 
+            android:name=".speaker.ClearSpeakerActivity"
+	    android:exported="false" 
             android:label="@string/clear_speaker_title"
-            android:theme="@style/Theme.Main">
+            android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -100,8 +103,9 @@
 
         <activity
             android:name=".display.DcDimmingSettingsActivity"
+	    android:exported="true"
             android:label="@string/dc_dimming_enable_title"
-            android:theme="@style/Theme.Main">
+            android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
