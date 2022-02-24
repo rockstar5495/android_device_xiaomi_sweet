@@ -11,11 +11,11 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 OCTAVI_BUILD_TYPE := Official
-OCTAVI_DEVICE_MAINTAINER = Pratyaksh.Bharadwaj
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 440
 TARGET_HAS_NOTCH := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := octavi_sweet
