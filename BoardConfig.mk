@@ -27,6 +27,9 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 
+# Inherit from ANXCamera vendor
+include vendor/ANXCamera/BoardConfigAnx.mk
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := sweet,sweetin,sweetinpro
 
