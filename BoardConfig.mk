@@ -115,6 +115,12 @@ TARGET_BOARD_PLATFORM := sm6150
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 
+# Properties
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/properties/system_prop.mk
+		      $(DEVICE_PATH)/properties/system.prop
+TARGET_VENDOR_PROP := $(DEVICE_PATH)/properties/vendor_prop.mk
+TARGET_PRODUCT_PROP := $(DEVICE_PATH)/properties/product_prop.mk
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
