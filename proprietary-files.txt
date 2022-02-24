@@ -1,5 +1,13 @@
 # All unpinned blobs are extracted from sweetin-qssi-user-11-RKQ1.200826.002-V12.0.8.0.RKFINXM-release-keys
 
+# Bluetooth (LDAC) - from MIUI 12.5.3.0 RKQMIXM
+system_ext/lib64/libldacBT_abr.so|cfed102e37b7e1b637dd5d1ecdff92305390c345
+system_ext/lib64/libldacBT_enc.so|cdacf2337dc6fe6c897e7572cfdace68337a46d6
+
+# Bluetooth (aptX) - from Pixel 4a
+system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+
 # CNE
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar
 system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar
@@ -85,10 +93,6 @@ system_ext/lib64/com.qualcomm.qti.imscmservice@2.2.so
 system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so
 system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so
 system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so
-system_ext/lib64/libldacBT_abr.so|cfed102e37b7e1b637dd5d1ecdff92305390c345
-system_ext/lib64/libldacBT_enc.so|cdacf2337dc6fe6c897e7572cfdace68337a46d6
-system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # IMS - from MIUI 13.0.4.0 SKFMIXM
 system_ext/lib64/libdiag_system.so|51b930474a2b42d42e68b9f5d83eef1c1ea5df56
