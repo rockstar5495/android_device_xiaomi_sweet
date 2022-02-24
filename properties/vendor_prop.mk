@@ -11,3 +11,6 @@ ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
 ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
 ro.vendor.display.sensortype=2
+
+# Netflix custom property
+ro.netflix.bsp_rev=Q6150-17263-1

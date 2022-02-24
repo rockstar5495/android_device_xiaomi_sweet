@@ -46,3 +46,5 @@ ro.zram.periodic_wb_delay_hours=24
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.perf.scroll_opt=true
 
+# Netflix custom prop
+ro.netflix.bsp_rev=Q845-05000-1
