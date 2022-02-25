@@ -120,7 +120,7 @@ TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/properties/system_prop.mk
-		      $(DEVICE_PATH)/properties/system.prop
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/properties/system.prop
 TARGET_VENDOR_PROP := $(DEVICE_PATH)/properties/vendor_prop.mk
 TARGET_PRODUCT_PROP := $(DEVICE_PATH)/properties/product_prop.mk
 
@@ -138,7 +138,6 @@ TARGET_SCREEN_DENSITY := 440
 include device/qcom/sepolicy/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_VENDOR_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/vendor
-#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy-minimal/private
 
 # Neverallows
 SELINUX_IGNORE_NEVERALLOWS := true
